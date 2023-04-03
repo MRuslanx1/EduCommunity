@@ -92,9 +92,9 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'educommunity',
-            'USER': 'eduuser',
-            'PASSWORD': 'eduuser',
+            'NAME': 'collegeerp',
+            'USER': 'admin',
+            'PASSWORD': 'admin',
             'HOST': 'localhost',
             'PORT': '',
         }
