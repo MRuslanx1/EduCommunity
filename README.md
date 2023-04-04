@@ -1,4 +1,4 @@
-# College-ERP
+# EduCommunity- College-ERP system
 A college management system built using Django framework. It is designed for interactions between students and teachers. Features include attendance, marks and time table.
 
 ## Installation
@@ -10,6 +10,22 @@ pip install django
 ```
 
 ## Usage
+Firstly we need to meet all the requirements and in order to download all the requirements in our created environment :
+
+```bash
+virtualenv myenv
+```
+```bash
+myenv/bin/activate
+```
+
+Then:
+
+```bash
+pip install -r requirements.txt
+```
+
+For running our project in localhost:
 
 Go to the College-ERP folder and run
 
@@ -26,10 +42,12 @@ The login page is common for students and teachers.
 The username is their name and password for everyone is 'project123'.  
 
 Example usernames:  
-student- 'samarth'  
-teacher- 'trisila'  
+student- 'aykhan'  
+teacher- 'khayyammasiyev'  
+
 
 You can access the django admin page at **http://127.0.0.1:8000/admin** and login with username 'admin' and the above password.
+After getting access to admin page it is avaialble to change , edit , put passwords users including teachers and students.
 
 Also a new admin user can be created using
 
@@ -43,54 +61,40 @@ New students and teachers can be added through the admin page. A new user needs 
 
 The admin page is used to modify all tables such as Students, Teachers, Departments, Courses, Classes etc.
 
-**For more details regarding the system and features please refer the reports included.**
 
-## Update (29/11/2020)
 
-Added method to reset attendance time range in Django Admin page.
-
-![alt_text](https://i.imgur.com/0xOWmUZ.png)
-
-This is present in Django Admin -> Attendance (http://127.0.0.1:8000/admin/info/attendanceclass/).  
-Start Date: Start Date of Attendance period  
-End Date: End Date of Attendance period
-
-This will delete all present attendance data and create new attendance objects for the given time range. 
 
 ## Screenshots
 
 ### Teacher Page
 
-![alt text](https://imgur.com/pMAoEbG.png)
+![image](https://user-images.githubusercontent.com/109919551/229638979-988d10c1-e769-4de8-8c06-0e2424d607d0.png)
 
-![alt text](https://imgur.com/ZiQ3RRA.png)
+![image](https://user-images.githubusercontent.com/109919551/229638882-8b53b73d-83a8-417a-ba65-16f41e105ac8.png)
 
-![alt text](https://imgur.com/i025CJW.png)
+![image](https://user-images.githubusercontent.com/109919551/229638904-5aeae374-5451-4754-9d54-0f567375a03f.png)
 
-![alt text](https://imgur.com/HQlLYmC.png)
+![image](https://user-images.githubusercontent.com/109919551/229638919-266aaf34-aa94-4041-b20d-d1adde51664d.png)
 
-![alt text](https://imgur.com/j6RyBmU.png)
+![image](https://user-images.githubusercontent.com/109919551/229638945-02dae303-1839-45dc-8317-2688f91f7f2a.png)
 
-![alt text](https://imgur.com/xIKEMvQ.png)
 
-![alt text](https://imgur.com/4Rl7Fpv.png)
 
 ### Student Page
 
-![alt text](https://imgur.com/isL9cjz.png)
+![image](https://user-images.githubusercontent.com/109919551/229639029-a907d907-01d0-492a-98f2-6539a1424dfb.png)
 
-![alt text](https://imgur.com/5pzl7m3.png)
+![image](https://user-images.githubusercontent.com/109919551/229639040-55baeb43-2c94-4190-aaf1-eb2338c363eb.png)
 
-![alt text](https://imgur.com/7zWhHZx.png)
+![image](https://user-images.githubusercontent.com/109919551/229639162-64fc8c08-69c4-49cc-ac04-c4da92bf313d.png)
 
-![alt text](https://imgur.com/fu7gxk8.png)
+![image](https://user-images.githubusercontent.com/109919551/229639179-10d8ad12-3684-4209-8a6d-e5e0b10ccac8.png)
 
-![alt text](https://imgur.com/NZqU268.png)
+![image](https://user-images.githubusercontent.com/109919551/229639192-2a8e6e48-b7f6-409e-8a95-2eab620eecce.png)
+
 
 ### Admin Page
 
-![alt text](https://imgur.com/sDvDc9N.png)
+![image](https://user-images.githubusercontent.com/109919551/229639234-beb9bcb8-8c3f-4c84-8d45-f243949cca00.png)
 
-![alt text](https://imgur.com/tMKWx6f.png)
-
-![alt text](https://imgur.com/PvCsNeB.png)
+![image](https://user-images.githubusercontent.com/109919551/229639269-813ca7f0-0086-4a5b-af94-e97d165e2ac3.png)
