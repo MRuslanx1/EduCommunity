@@ -1,4 +1,4 @@
-# EduCommunity- College-ERP system
+# EduCommunity- College-ERP system 
 A college management system built using Django framework. It is designed for interactions between students and teachers. Features include attendance, marks and time table.
 
 ## Installation
@@ -54,7 +54,7 @@ Also a new admin user can be created using
 ```bash
 python manage.py createsuperuser
 ```
-
+For accesing the deployed website corresponding url is http://178.128.206.74/
 ## Users
 
 New students and teachers can be added through the admin page. A new user needs to be created for each. 
