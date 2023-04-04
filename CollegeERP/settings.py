@@ -23,10 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'jy8c-n9y=pf##!2^jae-l_5iafq6q%wfq8gdb6c0r5d52su+9y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True 
 SITE_ID = 1
 
-ALLOWED_HOSTS = ['*', '104.248.23.40']
+ALLOWED_HOSTS = ['178.128.206.74']
 
 AUTH_USER_MODEL = 'info.User'
 
@@ -80,7 +80,8 @@ WSGI_APPLICATION = 'CollegeERP.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/2.1/ref/settings/#databases
+# Database
+# https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 # if DEBUG:
 #     DATABASES = {
@@ -93,9 +94,9 @@ WSGI_APPLICATION = 'CollegeERP.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'collegeerp',
-        'USER': 'admin',
-        'PASSWORD': 'admin',
+        'NAME': 'collegedb',
+        'USER': 'collegeuser',
+        'PASSWORD': '12345',
         'HOST': 'localhost',
         'PORT': '',
     }
